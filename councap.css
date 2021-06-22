@@ -62,7 +62,7 @@ body {
 }
 .image2{
   position: absolute;
-  width:99.5%;
+  max-width:100%;
   height:40%;
   top:3px;
   left: 2px;
