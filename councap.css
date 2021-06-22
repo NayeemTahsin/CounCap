@@ -1,18 +1,20 @@
+
 table, td {
   border: 10px solid blue;
-  font-family:brush script MT;
+  font-family:century;
+
   font-size:20px;
-  font-style: bold;
   background: #E0FFFF;
 border-collapse:collapse;
 text-align: center;
 border:none;
 padding-bottom: 20px;
-table-layout: fixed;
+
 }
 
 table{
 box-shadow: -12px 10px 12px #888 ;
+table-layout: fixed;
 
 }
 a{
@@ -21,18 +23,23 @@ a{
   text-decoration: none;
 
 }
-img{ 
+
+.ig{
   padding-top: 10px;
   width: 55px;
   height:32px;
   display: block;
-  padding-left: 34%;
+  padding-left: 40%;
   align-content: center;
-  transition:transform 0.7s ease;
-  
+    transition: transform .5s ease;
+
 }
+
+
 a:hover { color:#9FAFDF;}
-img:hover { transform: scale(1.7);}
+
+
+.ig:hover{ transform: scale(2); }
 
 th {
   border: none;
@@ -43,6 +50,7 @@ th {
   padding-bottom: 20px;
   color:white;
   background-color:#191970;
+
 }
 body {
   background-color: #87CEEB;
@@ -52,9 +60,40 @@ body {
   opacity:90%;
 
 }
-h3 {
-  text-shadow: 5px -5px 5px  #888;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  font-size:25px;
+.image2{
+  position: absolute;
+  width:99.5%;
+  height:40%;
+  top:3px;
+  left: 2px;
+  z-index:-1;
+
+
 }
+
+.image{
+  width: 20%;
+  height:20%;
+  display: block;
+  position: relative;
+  padding-left: 41%;
+  padding-top: 1%;
+  z-index: 1;
+}
+h3{
+  font-size:25px;
+  font-family:Times New Roman;
+  color: white;
+  padding-left:34%;
+  padding-top:0px;
+  transition: transform .3s ease;
+}
+h2{
+  font-size:25px;
+  font-family:Times New Roman;
+  color: #1E90FF;
+  padding-left:47%;
+padding-bottom: 3%;
+  transition: transform .3s ease;
+}
+h3,h2:hover{transform: scale(1.2);}
