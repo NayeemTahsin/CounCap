@@ -86,10 +86,10 @@ body {
   z-index: 1;
 }
 h3{
-   font-size:12px;
+   font-size:10px;
   font-family:Times New Roman;
   color: white;
-  padding-left:12.5%;
+  padding-left:10%;
   padding-top:0px;
   transition: transform .3s ease;
 }
